@@ -272,10 +272,13 @@ function matchNHLInLink(div){
 	// look in middle div for nhl.com link
 	if($('div#middle a:first').attr('href').indexOf("nhl.com") != -1){
 		foundNHLLink = true;
+        alert("true");
 	}else if($('div#middle a:nth-of-type(2)').attr('href').indexOf("nhl.com") != -1){
 		foundNHLLink = true;
+        alert("true");
 	}else if($('div#middle a:nth-of-type(3)').attr('href').indexOf("nhl.com") != -1){
 		foundNHLLink = true;
+        alert("true");
 	}
 	
 	if(foundNHLLink == false){
